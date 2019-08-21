@@ -7,6 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B350092230D3435007F30D7 /* StringCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8B230D342E007F30D7 /* StringCharacter.swift */; };
+		9B350093230D3435007F30D7 /* Functions&Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8C230D342E007F30D7 /* Functions&Methods.swift */; };
+		9B350094230D3435007F30D7 /* Enumerations&Class&Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8D230D342E007F30D7 /* Enumerations&Class&Struct.swift */; };
+		9B350095230D3435007F30D7 /* ArrayDicSetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8E230D342E007F30D7 /* ArrayDicSetTest.swift */; };
+		9B350096230D3435007F30D7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8F230D342E007F30D7 /* TestViewController.swift */; };
+		9B350097230D3435007F30D7 /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC90230D342E007F30D7 /* ControlFlow.swift */; };
+		9B350098230D3435007F30D7 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC91230D342E007F30D7 /* TestViewController.xib */; };
+		9B350099230D3435007F30D7 /* TestObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC92230D342E007F30D7 /* TestObj.swift */; };
+		9B35009A230D3435007F30D7 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC93230D342E007F30D7 /* Closures.swift */; };
+		9B35009B230D3435007F30D7 /* CETCSwiftTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC94230D342E007F30D7 /* CETCSwiftTestVC.swift */; };
+		9B35009D230D3435007F30D7 /* CETCSwiftCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC96230D342E007F30D7 /* CETCSwiftCollectionViewVC.swift */; };
+		9B35009E230D3435007F30D7 /* LoginBgImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC97230D342E007F30D7 /* LoginBgImageVC.swift */; };
+		9B35009F230D3435007F30D7 /* CETCSwiftFourLearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC98230D342E007F30D7 /* CETCSwiftFourLearVC.swift */; };
+		9B3500A0230D3435007F30D7 /* CETCLearnPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC99230D342E007F30D7 /* CETCLearnPlanCell.swift */; };
+		9B3500A1230D3435007F30D7 /* CETCLearnPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC9A230D342E007F30D7 /* CETCLearnPlanCell.xib */; };
+		9B3500A4230D3435007F30D7 /* CETCUploadImagesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC9D230D342E007F30D7 /* CETCUploadImagesVC.xib */; };
+		9B3500A6230D3435007F30D7 /* SwiftBaseDataCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC9F230D342E007F30D7 /* SwiftBaseDataCode.swift */; };
+		9B3500A8230D3435007F30D7 /* ParseFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FCA1230D342E007F30D7 /* ParseFile.swift */; };
+		9B3500AA230D3435007F30D7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FCA5230D342F007F30D7 /* UserModel.swift */; };
+		9B3500AB230D3435007F30D7 /* LearnPlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FCA6230D342F007F30D7 /* LearnPlanModel.swift */; };
+		9B3500AC230D3435007F30D7 /* JsonTest2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FCA7230D342F007F30D7 /* JsonTest2Model.swift */; };
+		9B3500AD230D3435007F30D7 /* swift-Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FCA8230D342F007F30D7 /* swift-Refresh.png */; };
+		9B3500AE230D3435007F30D7 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FCAA230D342F007F30D7 /* ReadMe */; };
+		9B350369230D3437007F30D7 /* CETCSwiftAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35007B230D3434007F30D7 /* CETCSwiftAlertVC.swift */; };
+		9B35036A230D3437007F30D7 /* CETCSwiftBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35007C230D3434007F30D7 /* CETCSwiftBaseVC.swift */; };
+		9B35036B230D3437007F30D7 /* 1242x2208@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B35007F230D3435007F30D7 /* 1242x2208@3x.png */; };
+		9B35036C230D3437007F30D7 /* jsonTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B350080230D3435007F30D7 /* jsonTest.json */; };
+		9B35036D230D3437007F30D7 /* jsonTest2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B350081230D3435007F30D7 /* jsonTest2.json */; };
+		9B35036E230D3437007F30D7 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B350082230D3435007F30D7 /* launch.png */; };
+		9B35036F230D3437007F30D7 /* CETCSwiftNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B350084230D3435007F30D7 /* CETCSwiftNetWork.swift */; };
+		9B350370230D3437007F30D7 /* CETCSwiftInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B350085230D3435007F30D7 /* CETCSwiftInterface.swift */; };
+		9B350372230D3437007F30D7 /* UIAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B350088230D3435007F30D7 /* UIAlertExtension.swift */; };
+		9B350373230D3437007F30D7 /* FontSizeConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B350089230D3435007F30D7 /* FontSizeConst.swift */; };
+		9B350374230D3437007F30D7 /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35008A230D3435007F30D7 /* ExtensionFile.swift */; };
+		9B350375230D3437007F30D7 /* ExtentionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35008B230D3435007F30D7 /* ExtentionUIView.swift */; };
+		9B350376230D3437007F30D7 /* Swift_pch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35008C230D3435007F30D7 /* Swift_pch.swift */; };
+		9B350377230D3437007F30D7 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35008D230D3435007F30D7 /* GlobalConst.swift */; };
+		9B350378230D3437007F30D7 /* ColorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35008E230D3435007F30D7 /* ColorConst.swift */; };
+		9B350379230D3437007F30D7 /* Base64Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35008F230D3435007F30D7 /* Base64Encode.swift */; };
 		9B35FC76230D32B7007F30D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC75230D32B7007F30D7 /* AppDelegate.swift */; };
 		9B35FC78230D32B7007F30D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC77230D32B7007F30D7 /* ViewController.swift */; };
 		9B35FC7B230D32B7007F30D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC79230D32B7007F30D7 /* Main.storyboard */; };
@@ -15,6 +54,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B35007B230D3434007F30D7 /* CETCSwiftAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftAlertVC.swift; sourceTree = "<group>"; };
+		9B35007C230D3434007F30D7 /* CETCSwiftBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftBaseVC.swift; sourceTree = "<group>"; };
+		9B35007F230D3435007F30D7 /* 1242x2208@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1242x2208@3x.png"; sourceTree = "<group>"; };
+		9B350080230D3435007F30D7 /* jsonTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonTest.json; sourceTree = "<group>"; };
+		9B350081230D3435007F30D7 /* jsonTest2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonTest2.json; sourceTree = "<group>"; };
+		9B350082230D3435007F30D7 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		9B350084230D3435007F30D7 /* CETCSwiftNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftNetWork.swift; sourceTree = "<group>"; };
+		9B350085230D3435007F30D7 /* CETCSwiftInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftInterface.swift; sourceTree = "<group>"; };
+		9B350088230D3435007F30D7 /* UIAlertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertExtension.swift; sourceTree = "<group>"; };
+		9B350089230D3435007F30D7 /* FontSizeConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeConst.swift; sourceTree = "<group>"; };
+		9B35008A230D3435007F30D7 /* ExtensionFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
+		9B35008B230D3435007F30D7 /* ExtentionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtentionUIView.swift; sourceTree = "<group>"; };
+		9B35008C230D3435007F30D7 /* Swift_pch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift_pch.swift; sourceTree = "<group>"; };
+		9B35008D230D3435007F30D7 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		9B35008E230D3435007F30D7 /* ColorConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConst.swift; sourceTree = "<group>"; };
+		9B35008F230D3435007F30D7 /* Base64Encode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64Encode.swift; sourceTree = "<group>"; };
 		9B35FC72230D32B7007F30D7 /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B35FC75230D32B7007F30D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B35FC77230D32B7007F30D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +77,30 @@
 		9B35FC7C230D32BA007F30D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B35FC7F230D32BA007F30D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B35FC81230D32BA007F30D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B35FC8B230D342E007F30D7 /* StringCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCharacter.swift; sourceTree = "<group>"; };
+		9B35FC8C230D342E007F30D7 /* Functions&Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Functions&Methods.swift"; sourceTree = "<group>"; };
+		9B35FC8D230D342E007F30D7 /* Enumerations&Class&Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enumerations&Class&Struct.swift"; sourceTree = "<group>"; };
+		9B35FC8E230D342E007F30D7 /* ArrayDicSetTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDicSetTest.swift; sourceTree = "<group>"; };
+		9B35FC8F230D342E007F30D7 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		9B35FC90230D342E007F30D7 /* ControlFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
+		9B35FC91230D342E007F30D7 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		9B35FC92230D342E007F30D7 /* TestObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObj.swift; sourceTree = "<group>"; };
+		9B35FC93230D342E007F30D7 /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		9B35FC94230D342E007F30D7 /* CETCSwiftTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftTestVC.swift; sourceTree = "<group>"; };
+		9B35FC96230D342E007F30D7 /* CETCSwiftCollectionViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftCollectionViewVC.swift; sourceTree = "<group>"; };
+		9B35FC97230D342E007F30D7 /* LoginBgImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBgImageVC.swift; sourceTree = "<group>"; };
+		9B35FC98230D342E007F30D7 /* CETCSwiftFourLearVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftFourLearVC.swift; sourceTree = "<group>"; };
+		9B35FC99230D342E007F30D7 /* CETCLearnPlanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCLearnPlanCell.swift; sourceTree = "<group>"; };
+		9B35FC9A230D342E007F30D7 /* CETCLearnPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CETCLearnPlanCell.xib; sourceTree = "<group>"; };
+		9B35FC9D230D342E007F30D7 /* CETCUploadImagesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CETCUploadImagesVC.xib; sourceTree = "<group>"; };
+		9B35FC9F230D342E007F30D7 /* SwiftBaseDataCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBaseDataCode.swift; sourceTree = "<group>"; };
+		9B35FCA1230D342E007F30D7 /* ParseFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseFile.swift; sourceTree = "<group>"; };
+		9B35FCA5230D342F007F30D7 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9B35FCA6230D342F007F30D7 /* LearnPlanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnPlanModel.swift; sourceTree = "<group>"; };
+		9B35FCA7230D342F007F30D7 /* JsonTest2Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonTest2Model.swift; sourceTree = "<group>"; };
+		9B35FCA8230D342F007F30D7 /* swift-Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift-Refresh.png"; sourceTree = "<group>"; };
+		9B35FCA9230D342F007F30D7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		9B35FCAA230D342F007F30D7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +114,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B35007A230D3434007F30D7 /* ToolFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B35007B230D3434007F30D7 /* CETCSwiftAlertVC.swift */,
+				9B35007C230D3434007F30D7 /* CETCSwiftBaseVC.swift */,
+			);
+			path = ToolFiles;
+			sourceTree = "<group>";
+		};
+		9B35007D230D3435007F30D7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9B35007E230D3435007F30D7 /* Images */,
+				9B350080230D3435007F30D7 /* jsonTest.json */,
+				9B350081230D3435007F30D7 /* jsonTest2.json */,
+				9B350082230D3435007F30D7 /* launch.png */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9B35007E230D3435007F30D7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B35007F230D3435007F30D7 /* 1242x2208@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9B350083230D3435007F30D7 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				9B350084230D3435007F30D7 /* CETCSwiftNetWork.swift */,
+				9B350085230D3435007F30D7 /* CETCSwiftInterface.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		9B350086230D3435007F30D7 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				9B350088230D3435007F30D7 /* UIAlertExtension.swift */,
+				9B350089230D3435007F30D7 /* FontSizeConst.swift */,
+				9B35008A230D3435007F30D7 /* ExtensionFile.swift */,
+				9B35008B230D3435007F30D7 /* ExtentionUIView.swift */,
+				9B35008C230D3435007F30D7 /* Swift_pch.swift */,
+				9B35008D230D3435007F30D7 /* GlobalConst.swift */,
+				9B35008E230D3435007F30D7 /* ColorConst.swift */,
+				9B35008F230D3435007F30D7 /* Base64Encode.swift */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
 		9B35FC69230D32B7007F30D7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +185,17 @@
 		9B35FC74230D32B7007F30D7 /* SwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				9B35FCA9230D342F007F30D7 /* Bridging-Header.h */,
+				9B35FCA2230D342E007F30D7 /* CustomView */,
+				9B35FCA4230D342E007F30D7 /* ModelFiles */,
+				9B350083230D3435007F30D7 /* NetWork */,
+				9B35FCAA230D342F007F30D7 /* ReadMe */,
+				9B35007D230D3435007F30D7 /* Sources */,
+				9B35FCA8230D342F007F30D7 /* swift-Refresh.png */,
+				9B35FCAB230D342F007F30D7 /* ThirdFrameworks */,
+				9B35007A230D3434007F30D7 /* ToolFiles */,
+				9B350086230D3435007F30D7 /* Units */,
+				9B35FC87230D342E007F30D7 /* ViewController */,
 				9B35FC75230D32B7007F30D7 /* AppDelegate.swift */,
 				9B35FC77230D32B7007F30D7 /* ViewController.swift */,
 				9B35FC79230D32B7007F30D7 /* Main.storyboard */,
@@ -62,6 +204,63 @@
 				9B35FC81230D32BA007F30D7 /* Info.plist */,
 			);
 			path = SwiftStudy;
+			sourceTree = "<group>";
+		};
+		9B35FC87230D342E007F30D7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B35FC8A230D342E007F30D7 /* TestFiles */,
+				9B35FC96230D342E007F30D7 /* CETCSwiftCollectionViewVC.swift */,
+				9B35FC97230D342E007F30D7 /* LoginBgImageVC.swift */,
+				9B35FC98230D342E007F30D7 /* CETCSwiftFourLearVC.swift */,
+				9B35FC99230D342E007F30D7 /* CETCLearnPlanCell.swift */,
+				9B35FC9A230D342E007F30D7 /* CETCLearnPlanCell.xib */,
+				9B35FC9D230D342E007F30D7 /* CETCUploadImagesVC.xib */,
+				9B35FC9F230D342E007F30D7 /* SwiftBaseDataCode.swift */,
+				9B35FCA1230D342E007F30D7 /* ParseFile.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9B35FC8A230D342E007F30D7 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B35FC8B230D342E007F30D7 /* StringCharacter.swift */,
+				9B35FC8C230D342E007F30D7 /* Functions&Methods.swift */,
+				9B35FC8D230D342E007F30D7 /* Enumerations&Class&Struct.swift */,
+				9B35FC8E230D342E007F30D7 /* ArrayDicSetTest.swift */,
+				9B35FC8F230D342E007F30D7 /* TestViewController.swift */,
+				9B35FC90230D342E007F30D7 /* ControlFlow.swift */,
+				9B35FC91230D342E007F30D7 /* TestViewController.xib */,
+				9B35FC92230D342E007F30D7 /* TestObj.swift */,
+				9B35FC93230D342E007F30D7 /* Closures.swift */,
+				9B35FC94230D342E007F30D7 /* CETCSwiftTestVC.swift */,
+			);
+			path = TestFiles;
+			sourceTree = "<group>";
+		};
+		9B35FCA2230D342E007F30D7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		9B35FCA4230D342E007F30D7 /* ModelFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B35FCA5230D342F007F30D7 /* UserModel.swift */,
+				9B35FCA6230D342F007F30D7 /* LearnPlanModel.swift */,
+				9B35FCA7230D342F007F30D7 /* JsonTest2Model.swift */,
+			);
+			path = ModelFiles;
+			sourceTree = "<group>";
+		};
+		9B35FCAB230D342F007F30D7 /* ThirdFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdFrameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +305,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 9B35FC69230D32B7007F30D7;
 			productRefGroup = 9B35FC73230D32B7007F30D7 /* Products */;
@@ -122,8 +323,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B35036D230D3437007F30D7 /* jsonTest2.json in Resources */,
 				9B35FC80230D32BA007F30D7 /* LaunchScreen.storyboard in Resources */,
+				9B3500AD230D3435007F30D7 /* swift-Refresh.png in Resources */,
+				9B35036E230D3437007F30D7 /* launch.png in Resources */,
+				9B3500A1230D3435007F30D7 /* CETCLearnPlanCell.xib in Resources */,
+				9B3500A4230D3435007F30D7 /* CETCUploadImagesVC.xib in Resources */,
+				9B35036B230D3437007F30D7 /* 1242x2208@3x.png in Resources */,
+				9B35036C230D3437007F30D7 /* jsonTest.json in Resources */,
+				9B3500AE230D3435007F30D7 /* ReadMe in Resources */,
 				9B35FC7D230D32BA007F30D7 /* Assets.xcassets in Resources */,
+				9B350098230D3435007F30D7 /* TestViewController.xib in Resources */,
 				9B35FC7B230D32B7007F30D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +346,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B35FC78230D32B7007F30D7 /* ViewController.swift in Sources */,
+				9B350373230D3437007F30D7 /* FontSizeConst.swift in Sources */,
+				9B350374230D3437007F30D7 /* ExtensionFile.swift in Sources */,
+				9B350097230D3435007F30D7 /* ControlFlow.swift in Sources */,
+				9B350372230D3437007F30D7 /* UIAlertExtension.swift in Sources */,
+				9B3500AB230D3435007F30D7 /* LearnPlanModel.swift in Sources */,
+				9B350099230D3435007F30D7 /* TestObj.swift in Sources */,
 				9B35FC76230D32B7007F30D7 /* AppDelegate.swift in Sources */,
+				9B350369230D3437007F30D7 /* CETCSwiftAlertVC.swift in Sources */,
+				9B350094230D3435007F30D7 /* Enumerations&Class&Struct.swift in Sources */,
+				9B35009F230D3435007F30D7 /* CETCSwiftFourLearVC.swift in Sources */,
+				9B3500A0230D3435007F30D7 /* CETCLearnPlanCell.swift in Sources */,
+				9B35009A230D3435007F30D7 /* Closures.swift in Sources */,
+				9B350375230D3437007F30D7 /* ExtentionUIView.swift in Sources */,
+				9B35009B230D3435007F30D7 /* CETCSwiftTestVC.swift in Sources */,
+				9B3500AC230D3435007F30D7 /* JsonTest2Model.swift in Sources */,
+				9B350370230D3437007F30D7 /* CETCSwiftInterface.swift in Sources */,
+				9B350095230D3435007F30D7 /* ArrayDicSetTest.swift in Sources */,
+				9B350093230D3435007F30D7 /* Functions&Methods.swift in Sources */,
+				9B350376230D3437007F30D7 /* Swift_pch.swift in Sources */,
+				9B35036F230D3437007F30D7 /* CETCSwiftNetWork.swift in Sources */,
+				9B350379230D3437007F30D7 /* Base64Encode.swift in Sources */,
+				9B35036A230D3437007F30D7 /* CETCSwiftBaseVC.swift in Sources */,
+				9B350096230D3435007F30D7 /* TestViewController.swift in Sources */,
+				9B3500AA230D3435007F30D7 /* UserModel.swift in Sources */,
+				9B3500A6230D3435007F30D7 /* SwiftBaseDataCode.swift in Sources */,
+				9B35009E230D3435007F30D7 /* LoginBgImageVC.swift in Sources */,
+				9B350377230D3437007F30D7 /* GlobalConst.swift in Sources */,
+				9B350378230D3437007F30D7 /* ColorConst.swift in Sources */,
+				9B3500A8230D3435007F30D7 /* ParseFile.swift in Sources */,
+				9B350092230D3435007F30D7 /* StringCharacter.swift in Sources */,
+				9B35009D230D3435007F30D7 /* CETCSwiftCollectionViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
