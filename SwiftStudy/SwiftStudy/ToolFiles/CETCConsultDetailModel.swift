@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CETCConsultDetailModel: CETCSwiftBaseModel {
+class CETCConsultDetailModel: SwiftBaseModel {
     @objc var meetSubject = ""      // 会诊主题
     @objc var senderFlag = ""       //是否是发起人
     @objc var pexipId = ""          //
@@ -67,14 +67,14 @@ class CETCConsultDetailModel: CETCSwiftBaseModel {
 }
 
 //会诊介绍Model
-class CETCConDetailIntroModel: CETCSwiftBaseModel {
+class CETCConDetailIntroModel: SwiftBaseModel {
     @objc var illnessDesc = ""   //会诊介绍(病情描述)
     @objc var goal = ""         //会诊目的
     @objc var remark = ""      //备注
 }
 
 // MARK: - 发起和受邀专家Model ***************
-class CETCConOrgInfoModel: CETCSwiftBaseModel {
+class CETCConOrgInfoModel: SwiftBaseModel {
     @objc var countNum = ""       //专家会诊总人数 关键字
     
     //不能直接添加Model 报错：__NSSingleObjectArrayI addObject: unrecognized selector sent 待分析。
@@ -115,7 +115,7 @@ class CETCConOrgInfoModel: CETCSwiftBaseModel {
     }
 }
 
-class CETCConOrgInfoSubModel: CETCSwiftBaseModel {
+class CETCConOrgInfoSubModel: SwiftBaseModel {
     @objc var orgName = ""        //机构名称
     @objc var officeList = NSMutableArray()      //科室列表
     
@@ -135,7 +135,7 @@ class CETCConOrgInfoSubModel: CETCSwiftBaseModel {
     }
 }
 
-class CETCConOrgInfoSubDeepModel: CETCSwiftBaseModel {
+class CETCConOrgInfoSubDeepModel: SwiftBaseModel {
     @objc var officeName = ""        //科室名称
     @objc var countNum = ""       //每个科室专家会诊人数 关键字
     @objc var officeId = ""      //科室id
@@ -168,7 +168,7 @@ class CETCConOrgInfoSubDeepModel: CETCSwiftBaseModel {
 }
 
 // MARK: - 审核进度Model ***************
-class CETCAuditListModel: CETCSwiftBaseModel {
+class CETCAuditListModel: SwiftBaseModel {
     @objc var hospofficeName = ""      //审核进度（医院名称-科室名称）
     @objc var manName = ""       //姓名
     @objc var reviewState = ""       //描述
