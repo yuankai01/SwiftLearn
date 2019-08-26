@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1B2BA623138D0D00B41DD6 /* CETCSwiftBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B2BA523138D0D00B41DD6 /* CETCSwiftBaseModel.swift */; };
 		9B350092230D3435007F30D7 /* StringCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8B230D342E007F30D7 /* StringCharacter.swift */; };
 		9B350093230D3435007F30D7 /* Functions&Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8C230D342E007F30D7 /* Functions&Methods.swift */; };
 		9B350094230D3435007F30D7 /* Enumerations&Class&Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8D230D342E007F30D7 /* Enumerations&Class&Struct.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B1B2BA523138D0D00B41DD6 /* CETCSwiftBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftBaseModel.swift; sourceTree = "<group>"; };
 		9B35007B230D3434007F30D7 /* CETCSwiftAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftAlertVC.swift; sourceTree = "<group>"; };
 		9B35007C230D3434007F30D7 /* CETCSwiftBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftBaseVC.swift; sourceTree = "<group>"; };
 		9B35007F230D3435007F30D7 /* 1242x2208@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1242x2208@3x.png"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			children = (
 				9B35007B230D3434007F30D7 /* CETCSwiftAlertVC.swift */,
 				9B35007C230D3434007F30D7 /* CETCSwiftBaseVC.swift */,
+				9B1B2BA523138D0D00B41DD6 /* CETCSwiftBaseModel.swift */,
 			);
 			path = ToolFiles;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				9B35FC78230D32B7007F30D7 /* ViewController.swift in Sources */,
 				9B350373230D3437007F30D7 /* FontSizeConst.swift in Sources */,
 				9B350374230D3437007F30D7 /* ExtensionFile.swift in Sources */,
+				9B1B2BA623138D0D00B41DD6 /* CETCSwiftBaseModel.swift in Sources */,
 				9B350097230D3435007F30D7 /* ControlFlow.swift in Sources */,
 				9B350372230D3437007F30D7 /* UIAlertExtension.swift in Sources */,
 				9B3500AB230D3435007F30D7 /* LearnPlanModel.swift in Sources */,
