@@ -15,7 +15,7 @@ import UIKit
 //单例类
 import UIKit
 //仿OC写法
-class UserModel: NSObject {
+class UserModel: NSObject,Codable {
     var userId: String?
     var userSessionKey: String?
     
@@ -52,6 +52,20 @@ struct UserDefaultKeys {
     struct SettingInfo {
         let font = "font"
         let backgroundImage = "backgroundImage"
+    }
+}
+
+//归档用：Codable
+struct CostModel : Codable {
+    var name:String
+    var age:Int
+    var height:Int
+    
+    private enum CodingKeys : String , CodingKey {
+        case name
+        case age
+        //修改height属性的接收关键字为h
+        case height="h"
     }
 }
 

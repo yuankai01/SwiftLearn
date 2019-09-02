@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B1B2BA623138D0D00B41DD6 /* SwiftBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B2BA523138D0D00B41DD6 /* SwiftBaseModel.swift */; };
 		9B1B2BA823138D9100B41DD6 /* CETCConsultDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B2BA723138D9100B41DD6 /* CETCConsultDetailModel.swift */; };
+		9B1B883F2314D86600A8CE9C /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B883E2314D86600A8CE9C /* Closure.swift */; };
 		9B350092230D3435007F30D7 /* StringCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8B230D342E007F30D7 /* StringCharacter.swift */; };
 		9B350093230D3435007F30D7 /* Functions&Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8C230D342E007F30D7 /* Functions&Methods.swift */; };
 		9B350094230D3435007F30D7 /* Enumerations&Class&Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35FC8D230D342E007F30D7 /* Enumerations&Class&Struct.swift */; };
@@ -53,11 +54,24 @@
 		9B35FC7B230D32B7007F30D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC79230D32B7007F30D7 /* Main.storyboard */; };
 		9B35FC7D230D32BA007F30D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC7C230D32BA007F30D7 /* Assets.xcassets */; };
 		9B35FC80230D32BA007F30D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35FC7E230D32BA007F30D7 /* LaunchScreen.storyboard */; };
+		9BBE38DC2317CF950089F295 /* SwiftAlignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE38DB2317CF950089F295 /* SwiftAlignButton.swift */; };
+		9BE7058C2318BCD4006BBD52 /* ESPullToRefresh+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7057E2318BCD4006BBD52 /* ESPullToRefresh+Manager.swift */; };
+		9BE7058D2318BCD4006BBD52 /* ESRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7057F2318BCD4006BBD52 /* ESRefreshAnimator.swift */; };
+		9BE7058E2318BCD4006BBD52 /* ESRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE705802318BCD4006BBD52 /* ESRefreshComponent.swift */; };
+		9BE7058F2318BCD4006BBD52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BE705822318BCD4006BBD52 /* Localizable.strings */; };
+		9BE705902318BCD4006BBD52 /* ESRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE705862318BCD4006BBD52 /* ESRefreshHeaderAnimator.swift */; };
+		9BE705912318BCD4006BBD52 /* icon_pull_to_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE705872318BCD4006BBD52 /* icon_pull_to_refresh_arrow@2x.png */; };
+		9BE705922318BCD4006BBD52 /* ESRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE705882318BCD4006BBD52 /* ESRefreshFooterAnimator.swift */; };
+		9BE705932318BCD4006BBD52 /* ESRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE705892318BCD4006BBD52 /* ESRefreshProtocol.swift */; };
+		9BE705942318BCD4006BBD52 /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7058A2318BCD4006BBD52 /* ES.swift */; };
+		9BE705952318BCD4006BBD52 /* ESPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7058B2318BCD4006BBD52 /* ESPullToRefresh.swift */; };
+		9BE70597231924D6006BBD52 /* SwiftSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE70596231924D6006BBD52 /* SwiftSubModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B1B2BA523138D0D00B41DD6 /* SwiftBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBaseModel.swift; sourceTree = "<group>"; };
 		9B1B2BA723138D9100B41DD6 /* CETCConsultDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCConsultDetailModel.swift; sourceTree = "<group>"; };
+		9B1B883E2314D86600A8CE9C /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		9B35007B230D3434007F30D7 /* CETCSwiftAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftAlertVC.swift; sourceTree = "<group>"; };
 		9B35007C230D3434007F30D7 /* CETCSwiftBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CETCSwiftBaseVC.swift; sourceTree = "<group>"; };
 		9B35007F230D3435007F30D7 /* 1242x2208@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1242x2208@3x.png"; sourceTree = "<group>"; };
@@ -105,6 +119,20 @@
 		9B35FCA8230D342F007F30D7 /* swift-Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift-Refresh.png"; sourceTree = "<group>"; };
 		9B35FCA9230D342F007F30D7 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		9B35FCAA230D342F007F30D7 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		9BBE38DB2317CF950089F295 /* SwiftAlignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlignButton.swift; sourceTree = "<group>"; };
+		9BE7057E2318BCD4006BBD52 /* ESPullToRefresh+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ESPullToRefresh+Manager.swift"; sourceTree = "<group>"; };
+		9BE7057F2318BCD4006BBD52 /* ESRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshAnimator.swift; sourceTree = "<group>"; };
+		9BE705802318BCD4006BBD52 /* ESRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshComponent.swift; sourceTree = "<group>"; };
+		9BE705832318BCD4006BBD52 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9BE705842318BCD4006BBD52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9BE705852318BCD4006BBD52 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9BE705862318BCD4006BBD52 /* ESRefreshHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshHeaderAnimator.swift; sourceTree = "<group>"; };
+		9BE705872318BCD4006BBD52 /* icon_pull_to_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pull_to_refresh_arrow@2x.png"; sourceTree = "<group>"; };
+		9BE705882318BCD4006BBD52 /* ESRefreshFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshFooterAnimator.swift; sourceTree = "<group>"; };
+		9BE705892318BCD4006BBD52 /* ESRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshProtocol.swift; sourceTree = "<group>"; };
+		9BE7058A2318BCD4006BBD52 /* ES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ES.swift; sourceTree = "<group>"; };
+		9BE7058B2318BCD4006BBD52 /* ESPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPullToRefresh.swift; sourceTree = "<group>"; };
+		9BE70596231924D6006BBD52 /* SwiftSubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSubModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +224,7 @@
 				9B35FCA8230D342F007F30D7 /* swift-Refresh.png */,
 				9B35FC75230D32B7007F30D7 /* AppDelegate.swift */,
 				9B35FC77230D32B7007F30D7 /* ViewController.swift */,
+				9BE70596231924D6006BBD52 /* SwiftSubModel.swift */,
 				9B35FC87230D342E007F30D7 /* ViewController */,
 				9B35FCA2230D342E007F30D7 /* CustomView */,
 				9B35FCA4230D342E007F30D7 /* ModelFiles */,
@@ -224,6 +253,7 @@
 				9B35FC9D230D342E007F30D7 /* CETCUploadImagesVC.xib */,
 				9B35FC9F230D342E007F30D7 /* SwiftBaseDataCode.swift */,
 				9B35FCA1230D342E007F30D7 /* ParseFile.swift */,
+				9B1B883E2314D86600A8CE9C /* Closure.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -248,6 +278,7 @@
 		9B35FCA2230D342E007F30D7 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				9BBE38DB2317CF950089F295 /* SwiftAlignButton.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -265,8 +296,34 @@
 		9B35FCAB230D342F007F30D7 /* ThirdFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BE7057D2318BCD4006BBD52 /* ESPullToRefresh */,
 			);
 			path = ThirdFrameworks;
+			sourceTree = "<group>";
+		};
+		9BE7057D2318BCD4006BBD52 /* ESPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9BE705812318BCD4006BBD52 /* Animator */,
+				9BE7058A2318BCD4006BBD52 /* ES.swift */,
+				9BE7058B2318BCD4006BBD52 /* ESPullToRefresh.swift */,
+				9BE7057E2318BCD4006BBD52 /* ESPullToRefresh+Manager.swift */,
+				9BE7057F2318BCD4006BBD52 /* ESRefreshAnimator.swift */,
+				9BE705802318BCD4006BBD52 /* ESRefreshComponent.swift */,
+				9BE705892318BCD4006BBD52 /* ESRefreshProtocol.swift */,
+			);
+			path = ESPullToRefresh;
+			sourceTree = "<group>";
+		};
+		9BE705812318BCD4006BBD52 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				9BE705882318BCD4006BBD52 /* ESRefreshFooterAnimator.swift */,
+				9BE705862318BCD4006BBD52 /* ESRefreshHeaderAnimator.swift */,
+				9BE705872318BCD4006BBD52 /* icon_pull_to_refresh_arrow@2x.png */,
+				9BE705822318BCD4006BBD52 /* Localizable.strings */,
+			);
+			path = Animator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,8 +393,10 @@
 				9B3500A1230D3435007F30D7 /* CETCLearnPlanCell.xib in Resources */,
 				9B3500A4230D3435007F30D7 /* CETCUploadImagesVC.xib in Resources */,
 				9B35036B230D3437007F30D7 /* 1242x2208@3x.png in Resources */,
+				9BE705912318BCD4006BBD52 /* icon_pull_to_refresh_arrow@2x.png in Resources */,
 				9B35036C230D3437007F30D7 /* jsonTest.json in Resources */,
 				9B3500AE230D3435007F30D7 /* ReadMe in Resources */,
+				9BE7058F2318BCD4006BBD52 /* Localizable.strings in Resources */,
 				9B35FC7D230D32BA007F30D7 /* Assets.xcassets in Resources */,
 				9B350098230D3435007F30D7 /* TestViewController.xib in Resources */,
 				9B35FC7B230D32B7007F30D7 /* Main.storyboard in Resources */,
@@ -357,6 +416,7 @@
 				9B350374230D3437007F30D7 /* ExtensionFile.swift in Sources */,
 				9B1B2BA623138D0D00B41DD6 /* SwiftBaseModel.swift in Sources */,
 				9B350097230D3435007F30D7 /* ControlFlow.swift in Sources */,
+				9BE705942318BCD4006BBD52 /* ES.swift in Sources */,
 				9B350372230D3437007F30D7 /* UIAlertExtension.swift in Sources */,
 				9B3500AB230D3435007F30D7 /* LearnPlanModel.swift in Sources */,
 				9B350099230D3435007F30D7 /* TestObj.swift in Sources */,
@@ -365,24 +425,34 @@
 				9B350094230D3435007F30D7 /* Enumerations&Class&Struct.swift in Sources */,
 				9B35009F230D3435007F30D7 /* CETCSwiftFourLearVC.swift in Sources */,
 				9B3500A0230D3435007F30D7 /* CETCLearnPlanCell.swift in Sources */,
+				9BE705952318BCD4006BBD52 /* ESPullToRefresh.swift in Sources */,
 				9B35009A230D3435007F30D7 /* Closures.swift in Sources */,
 				9B350375230D3437007F30D7 /* ExtentionUIView.swift in Sources */,
 				9B35009B230D3435007F30D7 /* CETCSwiftTestVC.swift in Sources */,
 				9B3500AC230D3435007F30D7 /* JsonTest2Model.swift in Sources */,
+				9BE7058C2318BCD4006BBD52 /* ESPullToRefresh+Manager.swift in Sources */,
 				9B350370230D3437007F30D7 /* CETCSwiftInterface.swift in Sources */,
 				9B350095230D3435007F30D7 /* ArrayDicSetTest.swift in Sources */,
 				9B350093230D3435007F30D7 /* Functions&Methods.swift in Sources */,
+				9BE7058D2318BCD4006BBD52 /* ESRefreshAnimator.swift in Sources */,
+				9BE705932318BCD4006BBD52 /* ESRefreshProtocol.swift in Sources */,
 				9B350376230D3437007F30D7 /* Swift_pch.swift in Sources */,
 				9B35036F230D3437007F30D7 /* CETCSwiftNetWork.swift in Sources */,
 				9B350379230D3437007F30D7 /* Base64Encode.swift in Sources */,
 				9B35036A230D3437007F30D7 /* CETCSwiftBaseVC.swift in Sources */,
 				9B350096230D3435007F30D7 /* TestViewController.swift in Sources */,
+				9BE70597231924D6006BBD52 /* SwiftSubModel.swift in Sources */,
 				9B3500AA230D3435007F30D7 /* UserModel.swift in Sources */,
 				9B3500A6230D3435007F30D7 /* SwiftBaseDataCode.swift in Sources */,
 				9B35009E230D3435007F30D7 /* LoginBgImageVC.swift in Sources */,
+				9BE7058E2318BCD4006BBD52 /* ESRefreshComponent.swift in Sources */,
+				9BBE38DC2317CF950089F295 /* SwiftAlignButton.swift in Sources */,
+				9BE705922318BCD4006BBD52 /* ESRefreshFooterAnimator.swift in Sources */,
 				9B350377230D3437007F30D7 /* GlobalConst.swift in Sources */,
 				9B350378230D3437007F30D7 /* ColorConst.swift in Sources */,
+				9BE705902318BCD4006BBD52 /* ESRefreshHeaderAnimator.swift in Sources */,
 				9B3500A8230D3435007F30D7 /* ParseFile.swift in Sources */,
+				9B1B883F2314D86600A8CE9C /* Closure.swift in Sources */,
 				9B350092230D3435007F30D7 /* StringCharacter.swift in Sources */,
 				9B35009D230D3435007F30D7 /* CETCSwiftCollectionViewVC.swift in Sources */,
 			);
@@ -405,6 +475,16 @@
 				9B35FC7F230D32BA007F30D7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE705822318BCD4006BBD52 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE705832318BCD4006BBD52 /* zh-Hans */,
+				9BE705842318BCD4006BBD52 /* Base */,
+				9BE705852318BCD4006BBD52 /* zh-Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
