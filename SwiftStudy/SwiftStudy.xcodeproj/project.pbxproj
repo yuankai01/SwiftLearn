@@ -224,7 +224,6 @@
 				9B35FCA8230D342F007F30D7 /* swift-Refresh.png */,
 				9B35FC75230D32B7007F30D7 /* AppDelegate.swift */,
 				9B35FC77230D32B7007F30D7 /* ViewController.swift */,
-				9BE70596231924D6006BBD52 /* SwiftSubModel.swift */,
 				9B35FC87230D342E007F30D7 /* ViewController */,
 				9B35FCA2230D342E007F30D7 /* CustomView */,
 				9B35FCA4230D342E007F30D7 /* ModelFiles */,
@@ -286,6 +285,7 @@
 		9B35FCA4230D342E007F30D7 /* ModelFiles */ = {
 			isa = PBXGroup;
 			children = (
+				9BE70596231924D6006BBD52 /* SwiftSubModel.swift */,
 				9B35FCA5230D342F007F30D7 /* UserModel.swift */,
 				9B35FCA6230D342F007F30D7 /* LearnPlanModel.swift */,
 				9B35FCA7230D342F007F30D7 /* JsonTest2Model.swift */,
